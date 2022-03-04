@@ -1,0 +1,51 @@
+[
+  {
+    "productId": "0000P001",
+    "productName": "Brown eggs",
+    "productType": "dairy",
+    "productDescription": "Raw organic brown eggs in a basket",
+    "productPrice": 70.00,
+    "productImage": ""
+  },
+  {
+    "productId": "0000P002",
+    "productName": "Sweet fresh strawberry",
+    "productType": "fruit",
+    "productDescription": "Sweet fresh strawberry on the wooden table",
+    "productPrice": 90.00,
+    "productImage": ""
+  },
+  {
+    "productId": "0000P003",
+    "productName": "Asparagus",
+    "productType": "vegetable",
+    "productDescription": "Asparagus with ham on the wooden table",
+    "productPrice": 100.00,
+    "productImage": ""
+  },
+  {
+    "productId": "0000P004",
+    "productName": "Raw legums",
+    "productType": "vegetable",
+    "productDescription": "Raw legums on the wooden table",
+    "productPrice": 65.00,
+    "productImage": ""
+  },
+  {
+    "productId": "0000P005",
+    "productName": "Baking cake",
+    "productType": "dairy",
+    "productDescription": "Baking cake in rural kitchen - dough  recipe ingredients (eggs, flour, sugar) on vintage wooden table from above.",
+    "productPrice": 169.99,
+    "productImage": ""
+  },
+  {
+    "productId": "0000P006",
+    "productName": "Pesto with basil",
+    "productType": "vegetable",
+    "productDescription": "Italian traditional pesto with basil, cheese and oil",
+    "productPrice": 99.99,
+    "productImage": ""
+  }
+
+]

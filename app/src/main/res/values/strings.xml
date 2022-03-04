@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">EliLillyCodingChallenge</string>
+    <string name="store">Store</string>
+    <string name="store_name">Store Name :</string>
+    <string name="store_info_header">Store Info</string>
+    <string name="city_label">City :</string>
+    <string name="phone_label">Phone :</string>
+    <string name="checkout">Checkout</string>
+    <string name="summary">Order Summary</string>
+    <string name="product_name">Name :</string>
+    <string name="details">Details :</string>
+    <string name="price">Price :</string>
+    <string name="total_price">Total :</string>
+    <string name="add_to_cart">Add to cart</string>
+    <string name="order_summary">Order Summary</string>
+    <string name="quantity">quantity :</string>
+    <string name="delete">Delete</string>
+    <string name="address_hint">Enter your delivery address here</string>
+    <string name="success_msg">Order placed successfully</string>
+    <string name="dismiss">Dismiss</string>
+</resources>
