@@ -1,6 +1,5 @@
 package com.lilly.codingchallenge.viewmodel
 
-import android.util.Log
 import androidx.lifecycle.LiveData
 import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
@@ -40,7 +39,7 @@ class CartViewModel @Inject constructor(
 
     fun deleteItemFromCart(cartItem: CartItems) {
         runBlocking {
-            val result  = storeRepository.delete(cartItem)
+            storeRepository.delete(cartItem)
         }
         updateView()
     }
@@ -70,7 +69,6 @@ class CartViewModel @Inject constructor(
     }
 
     suspend fun loadOrderSummaryFromDB(): List<OrderSummary> {
-        val orders: ArrayList<OrderSummary> = ArrayList()
         val getCartItemsFromDB = viewModelScope.async(Dispatchers.IO) {
             storeRepository.allOrders()
         }
